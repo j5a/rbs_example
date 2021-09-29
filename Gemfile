@@ -10,6 +10,9 @@ gem 'sass-rails', '>= 6'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rbs', '1.7.0.beta.4'
+  gem 'rbs_rails', require: false
+  gem 'steep', github: 'soutaro/steep'
 end
 
 group :development do
