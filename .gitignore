@@ -12,3 +12,4 @@
 .byebug_history
 /config/master.key
 /vendor/bundle
+/.gem_rbs_collection/
